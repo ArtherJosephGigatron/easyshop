@@ -5,7 +5,7 @@ import db from '../config/db.js';
 import dotenv from 'dotenv';
 dotenv.config();
 
-const JWT_SECRET = process.env.JWT_SECRET;
+const JWT_SECRET = 'EasyShopSecretKey3.14';
 
 // 🔐 تسجيل مستخدم جديد
 export const register = async (req, res) => {
