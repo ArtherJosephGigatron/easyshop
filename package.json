@@ -1,0 +1,33 @@
+{
+  "name": "soukdz-api",
+  "version": "1.0.0",
+  "description": "API for SoukDZ e-commerce platform (Algerian Market)",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "algeria",
+    "soukdz",
+    "market",
+    "ecommerce",
+    "api"
+  ],
+  "author": "Hamza Dev",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.5",
+    "morgan": "^1.10.0",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
